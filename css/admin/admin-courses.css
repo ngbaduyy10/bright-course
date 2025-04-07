@@ -1,0 +1,108 @@
+.admin-courses {
+    margin-left:240px;
+    padding: 20px;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.5s ease;
+}
+
+.closed .admin-courses {
+    margin-left: 70px;
+    transition: all 0.5s ease;
+}
+
+.admin-courses .title {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.admin-courses .button {
+    width: 200px;
+    background-color: var(--main-color);
+}
+
+.course-list {
+    margin-top: 40px;
+}
+.course-item {
+    padding: 0;
+    border-radius: 12px;
+    border: 1px solid #e2dfda;
+    background: #fff;
+}
+.course-item:hover {
+    border: none;
+    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+.course-item .thumb {
+    width: 100%;
+    border-radius: 12px 12px 0px 0px;
+}
+.course-list .info {
+    flex: 1;
+    padding: 16px 22px 22px;
+    display: flex;
+    flex-direction: column;
+}
+.course-list .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 8px;
+}
+.course-item .head .title {
+    color: #171100;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.67;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.course-item .head .rating {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.course-item .desc {
+    flex: 1;
+    margin-top: 6px;
+    color: #5f5b53;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.course-list .foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+.course-list .foot .price {
+    color: #171100;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.67;
+}
+.course-list .foot .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    background: var(--main-color);
+}
+
+.course-list .foot .button-delete {
+    background: red;
+}

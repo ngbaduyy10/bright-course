@@ -1,0 +1,49 @@
+.course-create {
+    margin-left: 240px;
+    padding: 20px;
+    transition: all 0.5s ease;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.closed .course-create {
+    margin-left: 70px;
+    transition: all 0.5s ease;
+}
+
+.course-create .content {
+    width: 100%;
+    max-width: 600px;
+}
+
+.course-create .title {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.course-create .form-group {
+    font-size: 1.4rem;
+}
+
+.course-create .form-group .form-control {
+    font-size: 1.4rem;
+}
+
+.course-create .form-group .form-select {
+    font-size: 1.4rem;
+}
+
+.course-create .button {
+    font-size: 1.4rem;
+    display: inline-block!important;
+    width: 120px;
+    background-color: var(--main-color);
+    border: none;
+    line-height: 40px;
+}
+
+.course-create .button-cancel {
+    background-color: red;
+}

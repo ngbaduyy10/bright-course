@@ -1,0 +1,144 @@
+body {
+    font-family: 'Sen', sans-serif!important;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 240px;
+    background-color: var(--main-color);
+    z-index: 10;
+    transition: all 0.5s ease;
+    border-radius: 10px;
+}
+
+.closed .sidebar {
+    width: 70px;
+    transition: all 0.5s ease;
+}
+
+.sidebar .sidebar-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45px;
+}
+
+.closed .sidebar-logo {
+    justify-content: center;
+}
+
+.sidebar .sidebar-logo .logo {
+    font-size: 3rem;
+    font-weight: 600;
+    color: white;
+}
+
+.closed .sidebar-logo .logo {
+    display: none;
+}
+
+.sidebar .sidebar-logo i {
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+}
+
+.sidebar .sidebar-hr {
+    height: 1px;
+    width: 100%;
+    color: white;
+}
+
+.sidebar-list a {
+    color: white;
+}
+
+.sidebar-list {
+    padding: 0;
+    margin: 0;
+    flex: 1;
+}
+
+.sidebar-list i {
+    font-size: 2.4rem;
+}
+
+.sidebar-list a {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+
+.closed .sidebar-list a {
+    justify-content: center;
+}
+
+.sidebar-list a:hover {
+    background-color: white;
+    color: var(--main-color);
+}
+
+.sidebar-list a.active {
+    background-color: white;
+    color: var(--main-color);
+}
+
+.sidebar-list .links-name {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.closed .sidebar-list .links-name {
+    display: none;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.closed .profile {
+    justify-content: center;
+}
+
+.profile .image {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: var(--main-color);
+}
+
+.closed .profile .image {
+    display: none;
+}
+
+.profile .name {
+    font-size: 2rem;
+    color: white;
+}
+
+.closed .profile .name {
+    display: none;
+}
+
+.profile a {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.profile i {
+    font-size: 2.6rem;
+    color: red;
+}

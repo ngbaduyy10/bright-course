@@ -1,0 +1,57 @@
+.detail {
+    margin: 80px 0!important;
+}
+
+.detail-content {
+    border-radius: 20px;
+    background-color: var(--background-color);
+}
+
+.detail .left {
+    background-color: var(--main-color);
+    border-radius: 20px 20px 20px 10px;
+    color: white;
+}
+
+.detail .image {
+    border-radius: 20px 20px 0 0;
+}
+
+.detail .price {
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+
+.detail .rating {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.detail .rating .value {
+    font-size: 1.6rem;
+    line-height: 1.75;
+}
+.detail .rating .star {
+    width: 18px;
+    height: 18px;
+}
+
+.detail .right {
+
+}
+
+.detail .title {
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.detail .desc {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.detail .button {
+    background-color: var(--main-color);
+}

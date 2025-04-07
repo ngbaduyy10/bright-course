@@ -1,0 +1,112 @@
+body {
+    background: #fff;
+    font-family: 'Sen', sans-serif!important;
+}
+
+/* Contact Form */
+.contact-form {
+    background-color: var(--main-color)!important;
+    border-radius: 10px;
+}
+
+.contact-form h2 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.contact-form p {
+    font-size: 1.4rem;
+    line-height: 16px;
+}
+
+.contact-form .form-control {
+    border-bottom: 1px solid white !important;
+    padding: 0.5rem 0;
+    color: #fff !important;
+    font-size: 1.4rem;
+    background-color: transparent !important; /* Đảm bảo nền trong suốt */
+}
+
+.contact-form .form-control::placeholder {
+    color: white !important; /* Màu placeholder rõ ràng */
+    font-size: 1.4rem;
+    opacity: 1; /* Đảm bảo placeholder hiển thị rõ */
+}
+
+.contact-form .form-control:focus {
+    box-shadow: none;
+    border-bottom: 1px solid #fff !important;
+}
+
+.contact-form textarea.form-control {
+    resize: none;
+}
+
+.contact-form .btn-light {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 0.75rem;
+    font-size: 1.4rem;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form .btn-light:hover {
+    background-color: #e0e0e0;
+}
+
+/* Social Links */
+.social-links {
+    width: 50px; /* Chiều rộng của block */
+    border-right: 1px solid #ddd;
+}
+
+.social-links a {
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #0d6efd; /* Màu xanh Bootstrap khi hover */
+}
+
+/* Social Links Mobile */
+.social-links-mobile a {
+    transition: color 0.3s ease;
+}
+
+.social-links-mobile i {
+    font-size: 1.6rem!important;
+}
+
+.social-links-mobile a:hover {
+    color: #0d6efd;
+}
+
+/* Map */
+.map-container {
+    height: 600px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+    .map-container {
+        height: 500px;
+    }
+    .contact-form {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .map-container {
+        height: 400px;
+    }
+    .contact-form h2 {
+        font-size: 2rem;
+    }
+    .contact-form p {
+        font-size: 0.9rem;
+    }
+}

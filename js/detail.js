@@ -2,7 +2,7 @@ $(document).ready(function() {
     const urlParams = new URLSearchParams(window.location.search);
     const id = urlParams.get('id');
     $.ajax({
-        url: '/bright-course/ajax/courses.ajax.php',
+        url: 'ajax/courses.ajax.php',
         method: 'GET',
         dataType: "json",
         data: {

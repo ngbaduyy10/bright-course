@@ -9,7 +9,7 @@ $(document).ready(function () {
         const email = $("#email").val();
 
         $.ajax({
-            url: "/bright-course/ajax/auth.ajax.php",
+            url: "ajax/auth.ajax.php",
             method: "POST",
             dataType: "json",
             data: {
@@ -38,7 +38,7 @@ $(document).ready(function () {
         const password = $("#password").val();
 
         $.ajax({
-            url: "/bright-course/ajax/auth.ajax.php",
+            url: "ajax/auth.ajax.php",
             method: "POST",
             dataType: "json",
             data: {

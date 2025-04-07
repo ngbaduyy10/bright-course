@@ -7,7 +7,7 @@ $(document).ready(function() {
 
     function load_users() {
         $.ajax({
-            url: "/bright-course/ajax/user.ajax.php",
+            url: "ajax/user.ajax.php",
             method: "GET",
             dataType: "json",
             data: {
@@ -49,7 +49,7 @@ $(document).ready(function() {
 
     function loadCourses() {
         $.ajax({
-            url: "/bright-course/ajax/courses.ajax.php",
+            url: "ajax/courses.ajax.php",
             method: "GET",
             dataType: "json",
             data: {
@@ -112,7 +112,7 @@ $(document).ready(function() {
                 const courseId = $(this).data('course-id');
 
                 $.ajax({
-                    url: '/bright-course/ajax/courses.ajax.php',
+                    url: 'ajax/courses.ajax.php',
                     method: "POST",
                     dataType: "json",
                     data: {

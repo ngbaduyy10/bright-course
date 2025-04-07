@@ -69,7 +69,7 @@ include __DIR__ . '/../../layouts/user/footer.php';
 <script>
     $(document).ready(function() {
         $.ajax({
-            url: '/bright-course/ajax/info.ajax.php',
+            url: 'ajax/info.ajax.php',
             method: 'GET',
             data: { action: 'get_address_iframe' },
             dataType: 'json',

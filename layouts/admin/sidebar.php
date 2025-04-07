@@ -29,7 +29,7 @@ if (session_status() == PHP_SESSION_NONE) {
             <div class="image"><?php echo strtoupper($_SESSION['user']['username'][0]); ?></div>
             <div class="name"><?php echo $_SESSION['user']['username'] ?></div>
         </div>
-        <a href="#">
+        <a href="?page=logout">
             <i class='bx bx-log-out'></i>
         </a>
     </div>

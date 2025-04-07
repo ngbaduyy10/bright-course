@@ -9,7 +9,7 @@ $(document).ready(function () {
 
     function loadCourses(append) {
         $.ajax({
-            url: "/bright-course/ajax/courses.ajax.php",
+            url: "ajax/courses.ajax.php",
             method: "GET",
             dataType: "json",
             data: {
@@ -86,7 +86,7 @@ $(document).ready(function () {
 
     function loadSubjects() {
         $.ajax({
-            url: "/bright-course/ajax/courses.ajax.php",
+            url: "ajax/courses.ajax.php",
             method: "GET",
             dataType: "json",
             data: {
